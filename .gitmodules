@@ -1,0 +1,3 @@
+[submodule "sunnyartportfolio/themes/reimu"]
+	path = sunnyartportfolio/themes/reimu
+	url = https://github.com/D-Sketon/hugo-theme-reimu.git
