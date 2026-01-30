@@ -7,6 +7,16 @@ params:
   description: "I like Art! This is my Art!"
   subtitle : "I like Art! This is my Art!"
   avatar: "images/sunny-art-1.png"
+  cover: false
+  font:
+    enable: true
+    article:
+      - Sigmar One 
+      - Noto Serif SC
+    code:
+      # - Ubuntu Mono
+      # - Source Code Pro
+      # - JetBrains Mono
   menu:
   # - name: home
   #   url: ""
@@ -50,7 +60,7 @@ params:
       rotate: true
       mask: true # whether to use the images as a mask
   material_theme:
-    enable: true # enable material_theme to generate dynamic color schemes based on the banner image
+    enable: false # enable material_theme to generate dynamic color schemes based on the banner image
   banner: "images/sunny-art-0.png"
 
 banner: "images/sunny-art-0.png"
