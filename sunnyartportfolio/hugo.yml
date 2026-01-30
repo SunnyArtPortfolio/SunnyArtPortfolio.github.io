@@ -1,0 +1,61 @@
+baseURL : 'https://sunnyartportfolio.github.io'
+languageCode : 'en-us'
+title : "Sunny's Art Portfolio"
+theme : "reimu"
+params:
+  author: Sunny
+  description: "I like Art! This is my Art!"
+  subtitle : "I like Art! This is my Art!"
+  avatar: "images/sunny-art-1.png"
+  menu:
+  # - name: home
+  #   url: ""
+  #   icon: 2605
+  # - name: archives
+  #   url: "archives"
+  #   icon: 2605
+  # - name: about
+  #   url: "about"
+  #   icon: 2605
+  footer:
+    since: 2026 # 2026-current year
+    powered: true
+    count: false
+    busuanzi: false
+    icon:
+      url: "../images/star.svg" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+      rotate: true
+      mask: true # whether to use the images as a mask
+  reimu_cursor:
+    enable: true
+    cursor:
+      default: ../images/cursor/default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+      pointer: ../images/cursor/pointer.png
+      text: ../images/cursor/cursor.png
+  preloader:
+    enable: true
+    text: 
+      zh-CN: 少女祈祷中...
+      zh-TW: 少女祈禱中...
+      en: Loading...
+      ja: 少女祈祷中...
+      pt-BR: Carregando...
+    icon: '/images/star.svg' # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+    rotate: true # whether to rotate the icon
+  top:
+    enable: true
+    position: right # left or right
+    icon:
+      url: "../images/star.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+      rotate: true
+      mask: true # whether to use the images as a mask
+  material_theme:
+    enable: true # enable material_theme to generate dynamic color schemes based on the banner image
+  banner: "images/sunny-art-0.png"
+
+banner: "images/sunny-art-0.png"
+anchor_icon: 2605 # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
+
+caches:
+  images:
+    dir: :cacheDir/images
