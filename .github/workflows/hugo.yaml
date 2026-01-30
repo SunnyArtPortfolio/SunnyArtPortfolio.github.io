@@ -94,7 +94,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./public
+          path: ./sunnyartportfolio/public
   deploy:
     environment:
       name: github-pages
