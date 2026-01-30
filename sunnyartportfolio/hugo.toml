@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sunnyartportfolio.github.io'
 languageCode = 'en-us'
 title = "Sunny's Art Portfolio"
 theme = "reimu"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
