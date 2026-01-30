@@ -18,9 +18,9 @@ params:
       # - Source Code Pro
       # - JetBrains Mono
   menu:
-  # - name: home
-  #   url: ""
-  #   icon: 2605
+   - name: home
+     url: ""
+     icon: 2605
   # - name: archives
   #   url: "archives"
   #   icon: 2605
